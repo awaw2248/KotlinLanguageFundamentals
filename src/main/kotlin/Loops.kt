@@ -17,17 +17,23 @@
 //-------------------------------------------------------------------------------------------
 //While Loop ["break", and "continue"] - Loops
 //-------------------------------------------------------------------------------------------
+//fun main() {
+//    for (index in 1..10){                   //** This (for loop) is about to check index's value @ every round! whether index value is ODD or EVEN number value
+//        if (index % 2 == 0){                //** if index value is odd, the println statement gets printed.
+//              continue                      //** printing happen for all numbers value because "continue" not used yet.
+//        }                                   //** using "continue" will cause printing only for odd numbers, as expected.
+//        println("$index is odd")            //** using "break" will cause printing only for one odd number as there is no looping around.
+//    }
+//}
+//
+
+//-------------------------------------------------------------------------------------------
+//While Loop - Loops
+//-------------------------------------------------------------------------------------------
 fun main() {
-    for (index in 1..10){                   //** This (for loop) is about to check index's value @ every round! whether index value is ODD or EVEN number value
-        if (index % 2 == 0){                //** if index value is odd, the println statement gets printed.
-              continue                      //** printing happen for all numbers value
-        }
-        println("$index is odd")
+    var number = 1
+    while (number < 5){
+        println(number)
+         number++
     }
 }
-
-
-//-------------------------------------------------------------------------------------------
-//Do..While Loop - Loops
-//-------------------------------------------------------------------------------------------
-
