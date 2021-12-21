@@ -36,12 +36,16 @@
 //        println(number)                      //** if "true" will enter the round, if "false" will exit round.
 //        number++
 //    }
-//}                                             // while loop is checking on meeting condition requirements [first]
-//=========================                     // then proceed to [executing]
-fun main() {
-    var number = 1
-    while (number> 5){
-        println(number)
-        number++
-    }
-}
+//}                                             // while loop is [checking] on meeting condition requirements [first]
+                                                // then proceed to [executing]
+//-------------------------------------------------------------------------------------------
+// Do While Loop - Loops
+//-------------------------------------------------------------------------------------------
+//fun main() {
+//    var number = 1                    // [executing] first happen, at least ONCE, then [checking] the condition requirements.
+//    do {
+//        println(number)
+//        number++
+//    }
+//    while (number> 5)
+//}
