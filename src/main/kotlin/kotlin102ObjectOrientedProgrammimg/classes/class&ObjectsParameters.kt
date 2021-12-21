@@ -46,13 +46,13 @@ package kotlin102ObjectOrientedProgrammimg.classes
 //----------------------------------------------------------------------------------------------------------------------
 //   initialization - classes
 //----------------------------------------------------------------------------------------------------------------------
-fun main() {
-    // when creating an [object] of "Student class" , what inside [init] happen without calling
- var s1 = Students("Ahmed", 1234, 25)
-}
-class Students(var name: String, var id: Int, var age: Int){
-
-    init {
-        println("Hello Ahmed Abdullah")
-    }
-}
+//fun main() {
+//    // when creating an [object] of "Student class" , what inside [init] happen without calling
+// var s1 = Students("Ahmed", 1234, 25)
+//}
+//class Students(var name: String, var id: Int, var age: Int){
+//
+//    init {
+//        println("Hello Ahmed Abdullah")
+//    }
+//}
