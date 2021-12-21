@@ -31,9 +31,9 @@
 //While Loop - Loops
 //-------------------------------------------------------------------------------------------
 fun main() {
-    var number = 1
-    while (number < 5){
-        println(number)
-         number++
+    var number = 9
+    while (number< 10){                      //** while loop is checking for meeting conditional requirements @ each round.
+        println(number)                      //** if "true" will enter the round, if "false" will exit round.
+        number++
     }
 }
