@@ -1,4 +1,4 @@
-//functions - Functions
+package kotlin101Basics//functions - Functions
 //---------------------------------------------------------------------------------------------------------------------------------------
 // "fun" is the key world within kotlin language to declare a function, then name of that function.
 // Naming functions is the same as Naming variables.
