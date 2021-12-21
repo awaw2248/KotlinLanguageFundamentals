@@ -1,9 +1,8 @@
-package kotlin102ObjectOrientedProgrammimg.`Class&Object`
+package kotlin102ObjectOrientedProgrammimg.classes.objects
 
 
 //*** the OTHER-WAY to create a class separately from main function file.
 
-//"creating an object is the same way of creating a variable" the first step is to create a class that hold all variables values
 
 class Student {
 
