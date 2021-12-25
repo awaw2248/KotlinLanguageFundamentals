@@ -94,3 +94,15 @@ package kotlin102ObjectOrientedProgrammimg
 //// prints
 ////Equal
 //-------------------------------------------------------------------------------------------------------------------------
+//ex:
+//enum class PlayerLevel{
+//    HIGH,
+//    MEDIUM,
+//    LOW
+//}
+//
+//fun main() {
+//    val playerLevel: PlayerLevel = PlayerLevel.LOW
+//    println(playerLevel)                          // this will print ----> 'LOW'
+//
+//}
