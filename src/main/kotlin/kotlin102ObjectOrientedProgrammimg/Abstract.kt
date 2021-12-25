@@ -46,3 +46,30 @@ package kotlin102ObjectOrientedProgrammimg
 //        TODO("Not yet implemented")
 //    }
 //}
+//======================================================================================================================
+//
+//fun main() {
+//    var s1=op()
+//    s1.sum(2,3)
+//}
+//
+//abstract class Operations(){
+//    abstract fun sum(num1: Int, num2: Int)
+//    abstract fun divi(num1: Int, num2: Int)
+//    abstract fun multi(num1: Int, num2: Int)
+//}
+//
+//class op: Operations(){
+//    override fun sum(num1: Int, num2: Int) {
+//        println(num1+num2)
+//    }
+//
+//    override fun divi(num1: Int, num2: Int) {
+//        TODO("Not yet implemented")
+//    }
+//
+//    override fun multi(num1: Int, num2: Int) {
+//        TODO("Not yet implemented")
+//    }
+//
+//}
