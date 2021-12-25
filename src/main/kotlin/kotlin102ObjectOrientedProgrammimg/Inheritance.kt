@@ -21,3 +21,24 @@ package kotlin102ObjectOrientedProgrammimg
 //class Teachers( name: String,  age: Int, id: Int, var Salary: Double): Users(name, age, id){       // declaring types only @ child class [for repeated variable]
 //
 //}
+//======================================================================================================================
+
+//fun main() {
+//    var s1= Students("Ahmed","petroleum engineering", 7755, 100.00)
+//    s1.result()
+//}
+//
+//
+//  open class School(var name: String, var numberID: Int, var grade: Double){
+//      fun result() {
+//          println("official statement is $name, $numberID, $grade")
+//      }
+//   }
+//
+//   class Students( name: String, var major: String,  numberID: Int,  grade: Double): School(name,numberID,grade) {
+//
+//    }
+//    class Teachers( name: String, var collage: String, numberID: Int, grade: Double){
+//
+//    }
+//
