@@ -60,16 +60,37 @@ package kotlin102ObjectOrientedProgrammimg
 // enum class benefit -> increase the visibility and type safety.
 //                    -> By: limiting the possibility of values for specific variables.
 //===========================================================================================================
-enum class Directions{
-               // all are CAPITAL--- the "conventions" way to write them! best practices.
-    NORTH,
-    SOUTH,
-    EAST,
-    WEST
-}
-
-fun main() {
-    val carDirection = Directions.NORTH
-    println(carDirection) // it will print= "NORTH"
-}
+//enum class Directions{
+//               // all are CAPITAL--- the "conventions" way to write them! best practices.
+//    NORTH,
+//    SOUTH,
+//    EAST,
+//    WEST
+//}
+//
+//fun main() {
+//    val carDirection = Directions.NORTH
+//    println(carDirection) // it will print= "NORTH"
+//}
 //---------------------------------------------------------------------------------------------------------------------------------------------------------
+//// notes:
+//// One of the most important types of classes in Kotlin programming language is Data Class.
+//// Data Class is the same normal class except ready functions of the following: [toString], [equals], [hashCode], [copy].
+//// Data Class must have 'primary constructor'
+//// Data Class is very useful in "comparison" between "instances"
+//
+//// ex:
+//data class Student(val name: String) // This LINE has generated-----> [toString], [equals], [hashCode], [copy], [[getters]], [[setters]].
+//
+//fun main() {
+//    val student1 = Student("Ahmed")
+//    val student2 = Student("Ahmed")
+//    // some information
+//    // in this case, a comparison between names
+//    if (student1 == student2){    //<------- it uses {.equals()}
+//        println("Equal")
+//    }
+//}
+//// prints
+////Equal
+//-------------------------------------------------------------------------------------------------------------------------
