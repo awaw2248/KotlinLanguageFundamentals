@@ -24,16 +24,17 @@ package kotlin102ObjectOrientedProgrammimg
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 // {companion object} is the same as {object} but with small differences.
 // One main difference is that {companion object} lives inside a class.
-//==========
-class SomeClass{
-
-    fun printFromClass(){ println("hi from the class") }
-    companion object{ fun create(): SomeClass = SomeClass() fun printLines(){ println("hi from the companion object") } }
-}
-
-fun main() {
-    SomeClass.printLines()
-    val object1 = SomeClass.create()
-
-    object1.printFromClass()
-}
+////==========
+//class SomeClass{
+//
+//    fun printFromClass(){ println("hi from the class") }
+//    companion object{ fun create(): SomeClass = SomeClass() fun printLines(){ println("hi from the companion object") } }
+//}
+//
+//fun main() {
+//    SomeClass.printLines()
+//    val object1 = SomeClass.create()
+//
+//    object1.printFromClass()
+//}
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
